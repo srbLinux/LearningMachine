@@ -17,9 +17,9 @@ class SYS_MONITOR_API SystemMonitor : public QObject
 public:
     explicit SystemMonitor(QObject *parent=NULL);
     time_t getSystemOpenTime();
-private:
-    static QMap<QString, time_t> usedProcesses;
+    QMap<QString, time_t> getAllProcessTime();
 };
+
 }
 
 #endif
