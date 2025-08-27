@@ -1,3 +1,3 @@
 TEMPLATE = subdirs  
 CONFIG += ordered  
-SUBDIRS = sys_monitor_lib monitor_app ai_learning_lib
+SUBDIRS = modules/sys_monitor_lib modules/ai_learning_lib modules/monitor_app

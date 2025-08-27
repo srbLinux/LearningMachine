@@ -1,4 +1,16 @@
 *.user
+*.sln
+*.stash
+*.vcxproj
+*.filters
+*.qtvscr
+*.cbt
+*.txt
 
 build*/
 build/*
+.vs*/
+.vs/*
+bin/*
+debug/*
+release/*
